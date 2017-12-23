@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="encomplus.com.ala_in_one_ravi.Admain">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9bdcc7"
+        app:cardCornerRadius="20sp"
+        app:cardElevation="@dimen/cardview_compat_inset_shadow"
+        android:elevation="10dp"
+        app:cardUseCompatPadding="true"
+        android:nestedScrollingEnabled="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#dfb6df"
+            android:layout_margin="20dp"
+            android:pointerIcon="all_scroll">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#dff7e0"
+                android:layout_margin="10dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="#f7f7d7"
+                    android:layout_weight="1"
+                    android:onClick="imageShow"
+                    android:text="Image Dwonload through GlideandPcaso"/>
+
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="#f7f7d7"
+                    android:onClick="showPassword"
+                    android:layout_weight="1"
+                    android:text="Show Password And Get Data one activity to uaouther bactivity"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#dff7e0"
+                android:layout_margin="10dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="#f7f7d7"
+                    android:layout_weight="1"
+                    android:text="Image Dwonload through GlideandPcaso"/>
+
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="#f7f7d7"
+                    android:layout_weight="1"
+                    android:text="Image Dwonload through GlideandPcaso"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

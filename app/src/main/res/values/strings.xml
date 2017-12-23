@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ala_In_One_Ravi</string>
+    <string name="user_email">User Email</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="login">Login</string>
+    <string name="singup">Singup</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="m_no1">Mobile Number</string>
+    <string name="submit">Submit</string>
+    <string name="guranter">Email</string>
+</resources>
